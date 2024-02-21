@@ -1,0 +1,46 @@
+/* Write your CSS code here */
+.bg-container {
+  border-width: 5px;
+  border-radius: 10px;
+
+  height: 70vh;
+  padding: 20px;
+  border: 5px #12022f 5px;
+}
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+}
+@media (max-width: 575px) {
+  .header-container {
+    padding: 15px;
+  }
+}
+.logo-size {
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+}
+.logo-heading {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.logo-box {
+  display: flex;
+  align-items: center;
+}
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin-left: -40px;
+}
+.nav-link {
+  margin-right: 20px;
+  color: #12022f;
+  font-weight: 800;
+  font-size: 20px;
+}
